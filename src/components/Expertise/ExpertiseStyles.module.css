@@ -1,0 +1,47 @@
+.expertise {
+    font-family: "Inter", sans-serif;
+    max-width: 1700px;
+    margin: auto;
+    padding: 3rem 2rem 3rem 2rem;
+
+    .expertiseH1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--text-color);
+    }
+}
+
+.expertiseGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    h2 {
+        font-size: 27px;
+        color: var(--text-color);
+    }
+    p {
+        font-size: 22px;
+        color: var(--text-color);
+    }
+
+    .expertiseDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--second-background-color);
+        padding: 2rem;
+        border-radius: 7px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: .3s;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .expertiseGroup {
+        flex-wrap: wrap;
+    }
+}
