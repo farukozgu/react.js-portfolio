@@ -21,7 +21,7 @@ function Header() {
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#feedback">Testimonials</a>
+            <a href="#feedback">Feedback</a>
           </li>
           <li>
             <img
