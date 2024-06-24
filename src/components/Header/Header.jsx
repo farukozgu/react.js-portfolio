@@ -8,7 +8,7 @@ function Header() {
 
   const themeIcon = theme === "light" ? moon : sun;
   
-
+ 
   return (
     <section className={styles.header}>
       <nav className={styles.headerNav}>
