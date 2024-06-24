@@ -1,12 +1,12 @@
 import styles from "./FooterStyles.module.css";
-import instagramLight from "../../assets/instagram-light.png";
-import instagramDark from "../../assets/instagram-dark.png";
-import twitterLight from "../../assets/twitter-light.png";
-import twitterDark from "../../assets/twitter-dark.png";
-import githubDark from "../../assets/github-dark.png";
-import githubLight from "../../assets/github-light.png";
-import linkedinLight from "../../assets/linkedin-light.png";
-import linkedinDark from "../../assets/linkedin-dark.png";
+import instagramLight from "../../assets/instagram-light.svg";
+import instagramDark from "../../assets/instagram-dark.svg";
+import twitterLight from "../../assets/twitter-light.svg";
+import twitterDark from "../../assets/twitter-dark.svg";
+import githubDark from "../../assets/github-dark.svg";
+import githubLight from "../../assets/github-light.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
 
 function Footer() {
