@@ -13,7 +13,7 @@
   --form-text-color: #555;
   --footer-text-color: #888;
 } 
-
+ 
 [data-theme='dark'] {
   --background-color: #222;
   --second-background-color: #222;
